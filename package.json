@@ -1,20 +1,25 @@
 {
     "name": "osrs-tools",
     "version": "0.1.0",
-    "main": "electron-main",
+    "main": "electron-main.js",
     "private": true,
     "dependencies": {
-        "react": "^16.6.0",
-        "react-dom": "^16.6.0",
-        "react-scripts": "2.0.5"
+        "electron-is-dev": "^1.0.1",
+        "osrs-wrapper": "^1.0.5",
+        "react": "^16.8.2",
+        "react-dom": "^16.8.2",
+        "react-scripts": "2.0.5",
+        "styled-components": "^4.1.3"
     },
     "scripts": {
         "precommit": "pretty-quick",
         "start": "react-scripts start",
-        "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "electron": "electron ."
+        "electron": "electron .",
+        "build:react": "react-scripts build",
+        "build:electron": "cross-env NODE_ENV=production electron-builder",
+        "build": "yarn build:electron"
     },
     "eslintConfig": {
         "extends": "react-app"
@@ -28,7 +33,24 @@
     "devDependencies": {
         "electron": "^3.0.6",
         "husky": "^1.1.2",
+        "cross-env": "^5.2.0",
+        "electron-builder": "^20.28.3",
         "prettier": "^1.14.3",
         "pretty-quick": "^1.8.0"
+    },
+    "build": {
+        "appId": "io.atom.electron.osrs-tool",
+        "productName": "OSRS Tools",
+        "files": [
+            "build/**/*",
+            "package.json",
+            "electron.js"
+        ],
+        "mac": {
+            "icon": "assets/icons/icon.png"
+        },
+        "win": {
+            "icon": "assets/icons/icon.png"
+        }
     }
 }
