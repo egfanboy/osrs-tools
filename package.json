@@ -1,8 +1,9 @@
 {
     "name": "osrs-tools",
     "version": "0.1.0",
-    "main": "electron-main.js",
+    "main": "public/electron.js",
     "private": true,
+    "homepage": "./",
     "dependencies": {
         "electron-is-dev": "^1.0.1",
         "osrs-wrapper": "^1.0.5",
@@ -19,7 +20,7 @@
         "electron": "electron .",
         "build:react": "react-scripts build",
         "build:electron": "cross-env NODE_ENV=production electron-builder",
-        "build": "yarn build:electron"
+        "build": "yarn build:react && yarn build:electron"
     },
     "eslintConfig": {
         "extends": "react-app"

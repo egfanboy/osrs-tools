@@ -43,6 +43,9 @@ function createWindow() {
     mainWindow = new BrowserWindow({
         width: 1200,
         height: 1200,
+        webPreferences: {
+            webSecurity: false,
+        },
     });
 
     const jsUrl = isDev
@@ -56,9 +59,7 @@ function createWindow() {
               slashes: true,
           });
 
-    mainWindow.loadURL(
-        `file://${__dirname}/public/index.html`
-    );
+    mainWindow.loadURL(jsUrl);
 
     mainWindow.on('closed', () => {
         mainWindow = null;
