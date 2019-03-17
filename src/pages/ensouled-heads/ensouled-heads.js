@@ -18,13 +18,10 @@ import ensouledHeads from './head-data';
 
 const { ipcRenderer } = window.require('electron');
 
-const heads = Object.keys(ensouledHeads).reduce(
-    (acc, head) => {
-        acc[head] = '';
-        return acc;
-    },
-    {}
-);
+const heads = Object.keys(ensouledHeads).reduce((acc, head) => {
+    acc[head] = '';
+    return acc;
+}, {});
 
 const initialState = {
     stats: {
@@ -47,6 +44,12 @@ const initialState = {
         natureRune: 0,
         bodyRune: 0,
     },
+    runes: {
+        blood: 0,
+        soul: 0,
+        nature: 0,
+        body: 0,
+    },
 };
 
 const reducer = (state, action) => {
@@ -56,57 +59,30 @@ const reducer = (state, action) => {
         }
         case 'SET_HEAD': {
             const { head, value } = action;
-            const {
-                prayerExpGained,
-                magicExpGained,
-                costs,
-                prices,
-            } = state;
+            const { prayerExpGained, magicExpGained, runes } = state;
 
             const oldValue = state.heads[head];
-            const {
-                prayExp,
-                magicExp,
-                bodyRune,
-                soulRune,
-                natureRune,
-                bloodRune,
-            } = ensouledHeads[head];
 
-            state.heads[head] = value;
+            const { prayExp, magicExp, bodyRune, soulRune, natureRune, bloodRune } = ensouledHeads[head];
+
+            const newHeadCount = value - oldValue;
+
+            const bloodRuneCount = runes.blood + newHeadCount * bloodRune;
+            const natureRuneCount = runes.nature + newHeadCount * natureRune;
+            const soulRuneCount = runes.soul + newHeadCount * soulRune;
+            const bodyRuneCount = runes.body + newHeadCount * bodyRune;
 
             return {
                 ...state,
-                heads: state.heads,
-
-                costs: {
-                    bloodRune:
-                        costs.bloodRune +
-                        (value - oldValue) *
-                            bloodRune *
-                            prices.blood,
-                    soulRune:
-                        costs.soulRune +
-                        (value - oldValue) *
-                            soulRune *
-                            prices.soul,
-                    natureRune:
-                        costs.natureRune +
-                        (value - oldValue) *
-                            natureRune *
-                            prices.nature,
-                    bodyRune:
-                        costs.bodyRune +
-                        (value - oldValue) *
-                            bodyRune *
-                            prices.body,
+                heads: { ...state.heads, [head]: value },
+                runes: {
+                    nature: natureRuneCount,
+                    body: bodyRuneCount,
+                    soul: soulRuneCount,
+                    blood: bloodRuneCount,
                 },
-                prayerExpGained:
-                    prayerExpGained +
-                    (value - oldValue) * prayExp,
-                magicExpGained:
-                    magicExpGained +
-                    (value - oldValue) * magicExp,
+                prayerExpGained: prayerExpGained + newHeadCount * prayExp,
+                magicExpGained: magicExpGained + newHeadCount * magicExp,
             };
         }
         case 'SET_STATS': {
@@ -165,8 +141,7 @@ const calculate = ({ dispatch, username }) => () => {
         } else {
             dispatch({
                 type: 'SET_USERNAME_ERROR',
-                errorMessage:
-                    'An error occured. Please verify your username.',
+                errorMessage: 'An error occured. Please verify your username.',
             });
         }
         dispatch({ type: 'LOADING_END' });
@@ -174,10 +149,7 @@ const calculate = ({ dispatch, username }) => () => {
 };
 
 const EnsouledHeads = () => {
-    const [state, dispatch] = useReducer(
-        reducer,
-        initialState
-    );
+    const [state, dispatch] = useReducer(reducer, initialState);
 
     const {
         username,
@@ -190,6 +162,7 @@ const EnsouledHeads = () => {
         magicExpGained,
         prices,
         costs,
+        runes,
         loadingMessage,
     } = state;
 
@@ -214,11 +187,8 @@ const EnsouledHeads = () => {
                 }
                 <Title>Ensouled head calculator</Title>
                 <Text>
-                    Enter your in game name and how many
-                    ensouled heads you have to discover how
-                    much exp and how what level you will end
-                    up. You must provide your username to
-                    calculate your exp gains.
+                    Enter your in game name and how many ensouled heads you have to discover how much exp and how what
+                    level you will end up. You must provide your username to calculate your exp gains.
                 </Text>
                 <UsernameWrapper>
                     <UserNameInput
@@ -243,17 +213,8 @@ const EnsouledHeads = () => {
                 <Wrapper>
                     {Object.keys(heads).map(head => {
                         return (
-                            <HeadWrapper
-                                key={`ensouled-${head}`}
-                            >
-                                <Image
-                                    title={`${head} head`}
-                                    alt={`${head} image`}
-                                    src={
-                                        ensouledHeads[head]
-                                            .src
-                                    }
-                                />
+                            <HeadWrapper key={`ensouled-${head}`}>
+                                <Image title={`${head} head`} alt={`${head} image`} src={ensouledHeads[head].src} />
                                 <Input
                                     type="number"
                                     min={0}
@@ -261,8 +222,7 @@ const EnsouledHeads = () => {
                                     value={heads[head]}
                                     onChange={value =>
                                         dispatch({
-                                            type:
-                                                'SET_HEAD',
+                                            type: 'SET_HEAD',
                                             head,
                                             value,
                                         })
@@ -277,7 +237,8 @@ const EnsouledHeads = () => {
                         prayerExpGained={prayerExpGained}
                         magicExpGained={magicExpGained}
                         stats={stats}
-                        costs={costs}
+                        runes={runes}
+                        prices={prices}
                     />
                 )}
             </Main>
