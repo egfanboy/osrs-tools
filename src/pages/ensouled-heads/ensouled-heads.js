@@ -146,6 +146,7 @@ const reducer = (state, action) => {
             };
         }
         default:
+            /* istanbul ignore next */
             return state;
     }
 };
@@ -185,7 +186,6 @@ const EnsouledHeads = () => {
         loading,
         calculated,
         stats,
-        loadingWasChanged,
         prayerExpGained,
         magicExpGained,
         prices,
@@ -257,6 +257,7 @@ const EnsouledHeads = () => {
                                 <Input
                                     type="number"
                                     min={0}
+                                    name={`${head}-amount`}
                                     value={heads[head]}
                                     onChange={value =>
                                         dispatch({
@@ -271,7 +272,6 @@ const EnsouledHeads = () => {
                         );
                     })}
                 </Wrapper>
-
                 {calculated && (
                     <Result
                         prayerExpGained={prayerExpGained}

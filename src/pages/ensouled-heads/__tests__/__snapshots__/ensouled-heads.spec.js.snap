@@ -1,0 +1,1925 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ensouled head page snapshots should match the default snapshot 1`] = `
+<div>
+  <div
+    class="sc-fjdhpX iPlNwP"
+  >
+    <div
+      class="sc-gZMcBi cZfnsN"
+    >
+      <svg
+        height="100px"
+        viewBox="0 0 82 82"
+      >
+        <circle
+          class="basic-spinner sc-EHOje fcoJiH"
+          cx="41"
+          cy="41"
+          fill="none"
+          r="33"
+        />
+      </svg>
+      <p />
+    </div>
+    <h2
+      class="sc-gzVnrw jncoMp"
+    >
+      Ensouled head calculator
+    </h2>
+    <p
+      class="sc-chPdSV dNTlgN"
+    >
+      Enter your in game name and how many ensouled heads you have to discover how much exp and how what level you will end up. You must provide your username to calculate your exp gains.
+    </p>
+    <div
+      class="sc-iwsKbI efeUFe"
+    >
+      <div
+        class="sc-dnqmqq iDynVF sc-bdVaJa ebkBzi"
+        label="Username"
+        value=""
+      >
+        <input
+          class="sc-htpNat dlPGwY"
+          name="Username"
+          type="text"
+          value=""
+        />
+        <span
+          class="sc-bwzfXH kjMOwR"
+        />
+      </div>
+      <button
+        class="sc-ifAKCX kTvqMd"
+      >
+        <div
+          class="sc-bxivhb ljuZIE"
+        >
+          Get Stats
+        </div>
+      </button>
+    </div>
+    <div
+      class="sc-gqjmRU kxTXcG"
+    >
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="goblin image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_goblin_head_detail.png/130px-Ensouled_goblin_head_detail.png?94a2a"
+          title="goblin head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="goblin-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="monkey image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_monkey_head_detail.png/130px-Ensouled_monkey_head_detail.png?94a2a"
+          title="monkey head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="monkey-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="imp image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_imp_head_detail.png/130px-Ensouled_imp_head_detail.png?94a2a"
+          title="imp head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="imp-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="minotaur image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_minotaur_head_detail.png/130px-Ensouled_minotaur_head_detail.png?94a2a"
+          title="minotaur head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="minotaur-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="scorpion image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_scorpion_head_detail.png/130px-Ensouled_scorpion_head_detail.png?94a2a"
+          title="scorpion head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="scorpion-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="bear image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_bear_head_detail.png/130px-Ensouled_bear_head_detail.png?94a2a"
+          title="bear head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="bear-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="unicorn image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_unicorn_head_detail.png/130px-Ensouled_unicorn_head_detail.png?94a2a"
+          title="unicorn head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="unicorn-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="dog image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_dog_head_detail.png/130px-Ensouled_dog_head_detail.png?94a2a"
+          title="dog head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="dog-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="druid image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_chaos_druid_head_detail.png/130px-Ensouled_chaos_druid_head_detail.png?94a2a"
+          title="druid head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="druid-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="giant image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_giant_head_detail.png/130px-Ensouled_giant_head_detail.png?94a2a"
+          title="giant head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="giant-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="ogre image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_ogre_head_detail.png/130px-Ensouled_ogre_head_detail.png?94a2a"
+          title="ogre head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="ogre-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="elf image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_elf_head_detail.png/130px-Ensouled_elf_head_detail.png?94a2a"
+          title="elf head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="elf-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="troll image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_troll_head_detail.png/130px-Ensouled_troll_head_detail.png?94a2a"
+          title="troll head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="troll-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="horror image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_horror_head_detail.png/130px-Ensouled_horror_head_detail.png?94a2a"
+          title="horror head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="horror-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="kalphite image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_kalphite_head_detail.png/130px-Ensouled_kalphite_head_detail.png?94a2a"
+          title="kalphite head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="kalphite-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="dagannoth image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_dagannoth_head_detail.png/130px-Ensouled_dagannoth_head_detail.png?94a2a"
+          title="dagannoth head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="dagannoth-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="bloodveld image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_bloodveld_head_detail.png/130px-Ensouled_bloodveld_head_detail.png?94a2a"
+          title="bloodveld head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="bloodveld-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="tzhaar image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_tzhaar_head_detail.png/130px-Ensouled_tzhaar_head_detail.png?94a2a"
+          title="tzhaar head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="tzhaar-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="demon image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_demon_head_detail.png/130px-Ensouled_demon_head_detail.png?94a2a"
+          title="demon head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="demon-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="aviansie image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_aviansie_head_detail.png/130px-Ensouled_aviansie_head_detail.png?94a2a"
+          title="aviansie head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="aviansie-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="abyssal image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_abyssal_head_detail.png/130px-Ensouled_abyssal_head_detail.png?94a2a"
+          title="abyssal head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="abyssal-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="dragon image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_dragon_head_detail.png/130px-Ensouled_dragon_head_detail.png?94a2a"
+          title="dragon head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="dragon-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Ensouled head page snapshots should match the snapshot when a username error occured 1`] = `
+<div>
+  <div
+    class="sc-fjdhpX iPlNwP"
+  >
+    <div
+      class="sc-gZMcBi cZfnsN"
+    >
+      <svg
+        height="100px"
+        viewBox="0 0 82 82"
+      >
+        <circle
+          class="basic-spinner sc-EHOje fcoJiH"
+          cx="41"
+          cy="41"
+          fill="none"
+          r="33"
+        />
+      </svg>
+      <p />
+    </div>
+    <h2
+      class="sc-gzVnrw jncoMp"
+    >
+      Ensouled head calculator
+    </h2>
+    <p
+      class="sc-chPdSV dNTlgN"
+    >
+      Enter your in game name and how many ensouled heads you have to discover how much exp and how what level you will end up. You must provide your username to calculate your exp gains.
+    </p>
+    <div
+      class="sc-iwsKbI efeUFe"
+    >
+      <div
+        class="sc-dnqmqq iDynVF sc-bdVaJa ekPrYb"
+        label="Username"
+        value="runescape player"
+      >
+        <input
+          class="sc-htpNat dlPGwY"
+          name="Username"
+          type="text"
+          value="runescape player"
+        />
+        <span
+          class="sc-bwzfXH kjMOwR"
+        >
+          An error occured. Please verify your username.
+        </span>
+      </div>
+      <button
+        class="sc-ifAKCX kTvqMd"
+      >
+        <div
+          class="sc-bxivhb ljuZIE"
+        >
+          Get Stats
+        </div>
+      </button>
+    </div>
+    <div
+      class="sc-gqjmRU kxTXcG"
+    >
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="goblin image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_goblin_head_detail.png/130px-Ensouled_goblin_head_detail.png?94a2a"
+          title="goblin head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="goblin-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="monkey image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_monkey_head_detail.png/130px-Ensouled_monkey_head_detail.png?94a2a"
+          title="monkey head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="monkey-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="imp image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_imp_head_detail.png/130px-Ensouled_imp_head_detail.png?94a2a"
+          title="imp head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="imp-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="minotaur image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_minotaur_head_detail.png/130px-Ensouled_minotaur_head_detail.png?94a2a"
+          title="minotaur head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="minotaur-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="scorpion image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_scorpion_head_detail.png/130px-Ensouled_scorpion_head_detail.png?94a2a"
+          title="scorpion head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="scorpion-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="bear image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_bear_head_detail.png/130px-Ensouled_bear_head_detail.png?94a2a"
+          title="bear head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="bear-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="unicorn image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_unicorn_head_detail.png/130px-Ensouled_unicorn_head_detail.png?94a2a"
+          title="unicorn head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="unicorn-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="dog image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_dog_head_detail.png/130px-Ensouled_dog_head_detail.png?94a2a"
+          title="dog head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="dog-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="druid image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_chaos_druid_head_detail.png/130px-Ensouled_chaos_druid_head_detail.png?94a2a"
+          title="druid head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="druid-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="giant image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_giant_head_detail.png/130px-Ensouled_giant_head_detail.png?94a2a"
+          title="giant head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="giant-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="ogre image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_ogre_head_detail.png/130px-Ensouled_ogre_head_detail.png?94a2a"
+          title="ogre head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="ogre-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="elf image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_elf_head_detail.png/130px-Ensouled_elf_head_detail.png?94a2a"
+          title="elf head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="elf-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="troll image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_troll_head_detail.png/130px-Ensouled_troll_head_detail.png?94a2a"
+          title="troll head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="troll-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="horror image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_horror_head_detail.png/130px-Ensouled_horror_head_detail.png?94a2a"
+          title="horror head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="horror-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="kalphite image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_kalphite_head_detail.png/130px-Ensouled_kalphite_head_detail.png?94a2a"
+          title="kalphite head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="kalphite-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="dagannoth image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_dagannoth_head_detail.png/130px-Ensouled_dagannoth_head_detail.png?94a2a"
+          title="dagannoth head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="dagannoth-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="bloodveld image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_bloodveld_head_detail.png/130px-Ensouled_bloodveld_head_detail.png?94a2a"
+          title="bloodveld head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="bloodveld-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="tzhaar image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_tzhaar_head_detail.png/130px-Ensouled_tzhaar_head_detail.png?94a2a"
+          title="tzhaar head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="tzhaar-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="demon image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_demon_head_detail.png/130px-Ensouled_demon_head_detail.png?94a2a"
+          title="demon head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="demon-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="aviansie image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_aviansie_head_detail.png/130px-Ensouled_aviansie_head_detail.png?94a2a"
+          title="aviansie head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="aviansie-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="abyssal image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_abyssal_head_detail.png/130px-Ensouled_abyssal_head_detail.png?94a2a"
+          title="abyssal head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="abyssal-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="dragon image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_dragon_head_detail.png/130px-Ensouled_dragon_head_detail.png?94a2a"
+          title="dragon head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="dragon-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Ensouled head page snapshots should match the snapshot when a users stats have been fetched 1`] = `
+<div>
+  <div
+    class="sc-fjdhpX iPlNwP"
+  >
+    <div
+      class="sc-gZMcBi cZfnsN"
+    >
+      <svg
+        height="100px"
+        viewBox="0 0 82 82"
+      >
+        <circle
+          class="basic-spinner sc-EHOje fcoJiH"
+          cx="41"
+          cy="41"
+          fill="none"
+          r="33"
+        />
+      </svg>
+      <p />
+    </div>
+    <h2
+      class="sc-gzVnrw jncoMp"
+    >
+      Ensouled head calculator
+    </h2>
+    <p
+      class="sc-chPdSV dNTlgN"
+    >
+      Enter your in game name and how many ensouled heads you have to discover how much exp and how what level you will end up. You must provide your username to calculate your exp gains.
+    </p>
+    <div
+      class="sc-iwsKbI efeUFe"
+    >
+      <div
+        class="sc-dnqmqq iDynVF sc-bdVaJa dRYwYT"
+        label="Username"
+        value="runescape player"
+      >
+        <input
+          class="sc-htpNat dlPGwY"
+          name="Username"
+          type="text"
+          value="runescape player"
+        />
+        <span
+          class="sc-bwzfXH kjMOwR"
+        />
+      </div>
+      <button
+        class="sc-ifAKCX kTvqMd"
+      >
+        <div
+          class="sc-bxivhb ljuZIE"
+        >
+          Get Stats
+        </div>
+      </button>
+    </div>
+    <div
+      class="sc-gqjmRU kxTXcG"
+    >
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="goblin image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_goblin_head_detail.png/130px-Ensouled_goblin_head_detail.png?94a2a"
+          title="goblin head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="goblin-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="monkey image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_monkey_head_detail.png/130px-Ensouled_monkey_head_detail.png?94a2a"
+          title="monkey head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="monkey-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="imp image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_imp_head_detail.png/130px-Ensouled_imp_head_detail.png?94a2a"
+          title="imp head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="imp-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="minotaur image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_minotaur_head_detail.png/130px-Ensouled_minotaur_head_detail.png?94a2a"
+          title="minotaur head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="minotaur-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="scorpion image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_scorpion_head_detail.png/130px-Ensouled_scorpion_head_detail.png?94a2a"
+          title="scorpion head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="scorpion-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="bear image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_bear_head_detail.png/130px-Ensouled_bear_head_detail.png?94a2a"
+          title="bear head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="bear-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="unicorn image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_unicorn_head_detail.png/130px-Ensouled_unicorn_head_detail.png?94a2a"
+          title="unicorn head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="unicorn-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="dog image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_dog_head_detail.png/130px-Ensouled_dog_head_detail.png?94a2a"
+          title="dog head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="dog-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="druid image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_chaos_druid_head_detail.png/130px-Ensouled_chaos_druid_head_detail.png?94a2a"
+          title="druid head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="druid-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="giant image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_giant_head_detail.png/130px-Ensouled_giant_head_detail.png?94a2a"
+          title="giant head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="giant-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="ogre image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_ogre_head_detail.png/130px-Ensouled_ogre_head_detail.png?94a2a"
+          title="ogre head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="ogre-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="elf image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_elf_head_detail.png/130px-Ensouled_elf_head_detail.png?94a2a"
+          title="elf head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="elf-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="troll image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_troll_head_detail.png/130px-Ensouled_troll_head_detail.png?94a2a"
+          title="troll head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="troll-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="horror image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_horror_head_detail.png/130px-Ensouled_horror_head_detail.png?94a2a"
+          title="horror head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="horror-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="kalphite image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_kalphite_head_detail.png/130px-Ensouled_kalphite_head_detail.png?94a2a"
+          title="kalphite head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="kalphite-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="dagannoth image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_dagannoth_head_detail.png/130px-Ensouled_dagannoth_head_detail.png?94a2a"
+          title="dagannoth head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="dagannoth-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="bloodveld image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_bloodveld_head_detail.png/130px-Ensouled_bloodveld_head_detail.png?94a2a"
+          title="bloodveld head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="bloodveld-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="tzhaar image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_tzhaar_head_detail.png/130px-Ensouled_tzhaar_head_detail.png?94a2a"
+          title="tzhaar head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="tzhaar-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="demon image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_demon_head_detail.png/130px-Ensouled_demon_head_detail.png?94a2a"
+          title="demon head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="demon-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="aviansie image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_aviansie_head_detail.png/130px-Ensouled_aviansie_head_detail.png?94a2a"
+          title="aviansie head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="aviansie-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="abyssal image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_abyssal_head_detail.png/130px-Ensouled_abyssal_head_detail.png?94a2a"
+          title="abyssal head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="abyssal-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-jTzLTM hlffUy"
+      >
+        <img
+          alt="dragon image"
+          class="sc-VigVT bMfyqu sc-bZQynM clBzhz"
+          src="https://oldschool.runescape.wiki/images/thumb/5/5d/Ensouled_dragon_head_detail.png/130px-Ensouled_dragon_head_detail.png?94a2a"
+          title="dragon head"
+        />
+        <div
+          class="sc-bdVaJa kVMMIv"
+          value=""
+        >
+          <input
+            class="sc-htpNat dlPGwY"
+            min="0"
+            name="dragon-amount"
+            type="number"
+            value=""
+          />
+          <span
+            class="sc-bwzfXH kjMOwR"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-kGXeez gIiLhl"
+      data-testid="ensouled-head-result-container"
+    >
+      <p
+        class="sc-chPdSV dNTlgN"
+      >
+        Using all the ensouled heads above will give you 
+        0
+      </p>
+      <img
+        class="sc-cSHVUG esvtHl sc-bZQynM clBzhz"
+        src="https://oldschool.runescape.wiki/images/f/f2/Prayer_icon.png?3a18b"
+      />
+      <p
+        class="sc-chPdSV dNTlgN"
+      >
+        exp and level 
+        1
+      </p>
+      <p
+        class="sc-kgoBCf ATitn"
+      >
+        +(
+        0
+        )
+         
+      </p>
+      <p
+        class="sc-chPdSV dNTlgN"
+      >
+         , 
+        0
+      </p>
+      <img
+        class="sc-cSHVUG esvtHl sc-bZQynM clBzhz"
+        src="https://oldschool.runescape.wiki/images/5/5c/Magic_icon.png?d0e72"
+      />
+      <p
+        class="sc-chPdSV dNTlgN"
+      >
+        exp and level 
+        1
+         
+      </p>
+      <p
+        class="sc-kgoBCf ATitn"
+      >
+        +(
+        0
+        )
+      </p>
+      <p
+        class="sc-chPdSV dNTlgN"
+      >
+        . It will also cost you 
+        0
+      </p>
+      <img
+        class="sc-kAzzGY cNUGsu sc-bZQynM clBzhz"
+        src="https://oldschool.runescape.wiki/images/3/30/Coins_10000.png?66565"
+      />
+      <p
+        class="sc-chPdSV dNTlgN"
+      >
+        in runes.
+      </p>
+    </div>
+  </div>
+</div>
+`;

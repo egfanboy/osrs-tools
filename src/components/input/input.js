@@ -7,7 +7,6 @@ import {
 } from './input.styled';
 
 const handleChange = ({ onChange }) => e => {
-    console.log(e.target.value);
     onChange && onChange(e.target.value);
 };
 
@@ -20,6 +19,7 @@ const Input = props => {
         label,
         className,
         error,
+        name,
     } = props;
 
     const [focused, setFocus] = useState(false);
@@ -33,6 +33,7 @@ const Input = props => {
             className={className}
         >
             <StyledInput
+                name={name || label}
                 onFocus={() => setFocus(true)}
                 onBlur={() => setFocus(false)}
                 type={type}
