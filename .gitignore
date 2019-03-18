@@ -13,5 +13,5 @@
 # misc
 .DS_Store
 
-#logs
+# logs
 *.log

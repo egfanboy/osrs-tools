@@ -28,7 +28,7 @@ exports[`Ensouled head page snapshots should match the default snapshot 1`] = `
       Ensouled head calculator
     </h2>
     <p
-      class="sc-chPdSV dNTlgN"
+      class="sc-chPdSV gbINrU"
     >
       Enter your in game name and how many ensouled heads you have to discover how much exp and how what level you will end up. You must provide your username to calculate your exp gains.
     </p>
@@ -646,7 +646,7 @@ exports[`Ensouled head page snapshots should match the snapshot when a username 
       Ensouled head calculator
     </h2>
     <p
-      class="sc-chPdSV dNTlgN"
+      class="sc-chPdSV gbINrU"
     >
       Enter your in game name and how many ensouled heads you have to discover how much exp and how what level you will end up. You must provide your username to calculate your exp gains.
     </p>
@@ -1266,7 +1266,7 @@ exports[`Ensouled head page snapshots should match the snapshot when a users sta
       Ensouled head calculator
     </h2>
     <p
-      class="sc-chPdSV dNTlgN"
+      class="sc-chPdSV gbINrU"
     >
       Enter your in game name and how many ensouled heads you have to discover how much exp and how what level you will end up. You must provide your username to calculate your exp gains.
     </p>
@@ -1857,7 +1857,7 @@ exports[`Ensouled head page snapshots should match the snapshot when a users sta
       data-testid="ensouled-head-result-container"
     >
       <p
-        class="sc-chPdSV dNTlgN"
+        class="sc-chPdSV gbINrU"
       >
         Using all the ensouled heads above will give you 
         0
@@ -1867,7 +1867,7 @@ exports[`Ensouled head page snapshots should match the snapshot when a users sta
         src="https://oldschool.runescape.wiki/images/f/f2/Prayer_icon.png?3a18b"
       />
       <p
-        class="sc-chPdSV dNTlgN"
+        class="sc-chPdSV gbINrU"
       >
         exp and level 
         1
@@ -1881,7 +1881,7 @@ exports[`Ensouled head page snapshots should match the snapshot when a users sta
          
       </p>
       <p
-        class="sc-chPdSV dNTlgN"
+        class="sc-chPdSV gbINrU"
       >
          , 
         0
@@ -1891,7 +1891,7 @@ exports[`Ensouled head page snapshots should match the snapshot when a users sta
         src="https://oldschool.runescape.wiki/images/5/5c/Magic_icon.png?d0e72"
       />
       <p
-        class="sc-chPdSV dNTlgN"
+        class="sc-chPdSV gbINrU"
       >
         exp and level 
         1
@@ -1905,20 +1905,17 @@ exports[`Ensouled head page snapshots should match the snapshot when a users sta
         )
       </p>
       <p
-        class="sc-chPdSV dNTlgN"
+        class="sc-chPdSV gbINrU"
       >
-        . It will also cost you 
+        You need 
+         0 blood runes, 0 soul runes, 0 nature runes and 0 body runes
+        , which should cost you 
         0
       </p>
       <img
         class="sc-kAzzGY cNUGsu sc-bZQynM clBzhz"
         src="https://oldschool.runescape.wiki/images/3/30/Coins_10000.png?66565"
       />
-      <p
-        class="sc-chPdSV dNTlgN"
-      >
-        in runes.
-      </p>
     </div>
   </div>
 </div>

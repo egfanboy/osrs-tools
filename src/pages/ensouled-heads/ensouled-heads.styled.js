@@ -88,6 +88,7 @@ export const GPIcon = styled(WikiImage)`
 export const Text = styled.p`
     font-size: 18px;
     margin: 0;
+    white-space: pre-line;
 `;
 
 export const LevelsGained = styled.p`

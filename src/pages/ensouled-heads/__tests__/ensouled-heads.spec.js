@@ -1,9 +1,5 @@
 import React from 'react';
-import {
-    render,
-    fireEvent,
-    waitForElement,
-} from 'react-testing-library';
+import { render, fireEvent, waitForElement } from 'react-testing-library';
 
 import { getLevelByExp } from '../../../utils/runescape';
 
@@ -51,25 +47,17 @@ describe('Ensouled head page', () => {
     );
     describe('snapshots', () => {
         it('should match the default snapshot', async () => {
-            const { container, getByText } = render(
-                <EnsouledHeads />
-            );
+            const { container, getByText } = render(<EnsouledHeads />);
 
-            await waitForElement(() =>
-                getByText('Get Stats')
-            );
+            await waitForElement(() => getByText('Get Stats'));
 
             expect(container).toMatchSnapshot();
         });
 
         it('should match the snapshot when a users stats have been fetched', async () => {
-            const { container, getByText } = render(
-                <EnsouledHeads />
-            );
+            const { container, getByText } = render(<EnsouledHeads />);
 
-            const usernameInput = container.querySelector(
-                'input[name="Username"]'
-            );
+            const usernameInput = container.querySelector('input[name="Username"]');
 
             fireEvent.change(usernameInput, {
                 target: {
@@ -83,25 +71,17 @@ describe('Ensouled head page', () => {
         });
 
         it('should match the snapshot when a username error occured', () => {
-            mockOnce.mockImplementationOnce(
-                (eventName, cb) => {
-                    if (eventName === EVENTS.setPrices) {
-                        cb(undefined, prices);
-                    } else if (
-                        eventName === EVENTS.setStats
-                    ) {
-                        cb(undefined, true);
-                    }
+            mockOnce.mockImplementationOnce((eventName, cb) => {
+                if (eventName === EVENTS.setPrices) {
+                    cb(undefined, prices);
+                } else if (eventName === EVENTS.setStats) {
+                    cb(undefined, true);
                 }
-            );
+            });
 
-            const { container, getByText } = render(
-                <EnsouledHeads />
-            );
+            const { container, getByText } = render(<EnsouledHeads />);
 
-            const usernameInput = container.querySelector(
-                'input[name="Username"]'
-            );
+            const usernameInput = container.querySelector('input[name="Username"]');
 
             fireEvent.change(usernameInput, {
                 target: {
@@ -119,40 +99,31 @@ describe('Ensouled head page', () => {
         it('should properly calculate exp and level gains and costs based on ensouled heads added and removed', () => {
             const head = 'demon';
 
-            const {
-                prayExp,
-                magicExp,
-                bodyRune,
-                soulRune,
-                natureRune,
-                bloodRune,
-            } = headData[head];
+            const { prayExp, magicExp, bodyRune, soulRune, natureRune, bloodRune } = headData[head];
 
             const headAmount = 10;
 
             const calculateGainsBasedOnAmount = headAmount => {
+                const expectedRunes = {
+                    body: bodyRune * headAmount,
+                    nature: natureRune * headAmount,
+                    soul: soulRune * headAmount,
+                    blood: bloodRune * headAmount,
+                };
                 const expectedCost =
-                    bodyRune * headAmount * prices.body +
-                    natureRune *
-                        headAmount *
-                        prices.nature +
-                    soulRune * headAmount * prices.soul +
-                    bloodRune * headAmount * prices.blood;
+                    expectedRunes.body * prices.body +
+                    expectedRunes.nature * prices.nature +
+                    expectedRunes.soul * prices.soul +
+                    expectedRunes.blood * prices.blood;
 
                 //These assume a base level of 0 with 0 exp
-                const expectedPrayerXpGain =
-                    headAmount * prayExp;
+                const expectedPrayerXpGain = headAmount * prayExp;
 
-                const expectedMagicXpGain =
-                    headAmount * magicExp;
+                const expectedMagicXpGain = headAmount * magicExp;
 
-                const expectedPrayerLevelsGained =
-                    getLevelByExp(expectedPrayerXpGain) -
-                    stats.prayer.level;
+                const expectedPrayerLevelsGained = getLevelByExp(expectedPrayerXpGain) - stats.prayer.level;
 
-                const expectedMagicLevelsGained =
-                    getLevelByExp(expectedMagicXpGain) -
-                    stats.magic.level;
+                const expectedMagicLevelsGained = getLevelByExp(expectedMagicXpGain) - stats.magic.level;
 
                 return {
                     expectedCost,
@@ -160,6 +131,7 @@ describe('Ensouled head page', () => {
                     expectedMagicXpGain,
                     expectedPrayerLevelsGained,
                     expectedPrayerXpGain,
+                    expectedRunes,
                 };
             };
 
@@ -169,17 +141,12 @@ describe('Ensouled head page', () => {
                 expectedMagicXpGain,
                 expectedPrayerLevelsGained,
                 expectedPrayerXpGain,
+                expectedRunes,
             } = calculateGainsBasedOnAmount(headAmount);
 
-            const {
-                container,
-                getByText,
-                getByTestId,
-            } = render(<EnsouledHeads />);
+            const { container, getByText, getByTestId } = render(<EnsouledHeads />);
 
-            const usernameInput = container.querySelector(
-                'input[name="Username"]'
-            );
+            const usernameInput = container.querySelector('input[name="Username"]');
 
             fireEvent.change(usernameInput, {
                 target: {
@@ -189,36 +156,24 @@ describe('Ensouled head page', () => {
 
             fireEvent.click(getByText('Get Stats'));
 
-            const demonHeadInput = container.querySelector(
-                `input[name="${head}-amount"]`
-            );
+            const demonHeadInput = container.querySelector(`input[name="${head}-amount"]`);
 
             fireEvent.change(demonHeadInput, {
                 target: { value: headAmount },
             });
 
-            const resultContainer = getByTestId(
-                'ensouled-head-result-container'
-            );
+            const resultContainer = getByTestId('ensouled-head-result-container');
 
-            expect(resultContainer).toHaveTextContent(
-                `${expectedCost}`
-            );
-            expect(resultContainer).toHaveTextContent(
-                `+(${expectedPrayerLevelsGained})`
-            );
-            expect(resultContainer).toHaveTextContent(
-                `+(${expectedMagicLevelsGained})`
-            );
-            expect(resultContainer).toHaveTextContent(
-                `${expectedPrayerXpGain}exp`
-            );
-            expect(resultContainer).toHaveTextContent(
-                `${expectedMagicXpGain}exp`
+            expect(resultContainer).toHaveTextContent(`${expectedCost}`);
+            expect(resultContainer).toHaveTextContent(`+(${expectedPrayerLevelsGained})`);
+            expect(resultContainer).toHaveTextContent(`+(${expectedMagicLevelsGained})`);
+            expect(resultContainer).toHaveTextContent(`${expectedPrayerXpGain}exp`);
+            expect(resultContainer).toHaveTextContent(`${expectedMagicXpGain}exp`);
+            Object.keys(expectedRunes).forEach(rune =>
+                expect(resultContainer).toHaveTextContent(`${expectedRunes[rune]} ${rune} runes`)
             );
 
             //Remove heads to ensure it can properly remove heads
-
             const removedHeadAmount = 3;
             const {
                 expectedCost: removedCost,
@@ -226,28 +181,20 @@ describe('Ensouled head page', () => {
                 expectedMagicXpGain: removedMagicXpGain,
                 expectedPrayerLevelsGained: removedPrayerLevelsGained,
                 expectedPrayerXpGain: removedPrayerXpGain,
-            } = calculateGainsBasedOnAmount(
-                removedHeadAmount
-            );
+                expectedRunes: removedRunes,
+            } = calculateGainsBasedOnAmount(removedHeadAmount);
 
             fireEvent.change(demonHeadInput, {
                 target: { value: removedHeadAmount },
             });
 
-            expect(resultContainer).toHaveTextContent(
-                `${removedCost}`
-            );
-            expect(resultContainer).toHaveTextContent(
-                `+(${removedPrayerLevelsGained})`
-            );
-            expect(resultContainer).toHaveTextContent(
-                `+(${removedMagicLevelsGained})`
-            );
-            expect(resultContainer).toHaveTextContent(
-                `${removedPrayerXpGain}exp`
-            );
-            expect(resultContainer).toHaveTextContent(
-                `${removedMagicXpGain}exp`
+            expect(resultContainer).toHaveTextContent(`${removedCost}`);
+            expect(resultContainer).toHaveTextContent(`+(${removedPrayerLevelsGained})`);
+            expect(resultContainer).toHaveTextContent(`+(${removedMagicLevelsGained})`);
+            expect(resultContainer).toHaveTextContent(`${removedPrayerXpGain}exp`);
+            expect(resultContainer).toHaveTextContent(`${removedMagicXpGain}exp`);
+            Object.keys(removedRunes).forEach(rune =>
+                expect(resultContainer).toHaveTextContent(`${removedRunes[rune]} ${rune} runes`)
             );
         });
     });
