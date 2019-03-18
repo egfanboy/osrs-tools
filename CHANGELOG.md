@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### ✨Enhancement✨
 
+-   **Added** the amount of runes you need to use up all ensouled heads [#3](https://github.com/EricTurf/osrs-tools/pull/3)
 -   **Added** Basic unit tests [#4](https://github.com/EricTurf/osrs-tools/pull/4)
 
 ## 1.0.0 - [2019-02-26]

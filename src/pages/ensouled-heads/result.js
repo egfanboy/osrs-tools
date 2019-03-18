@@ -2,8 +2,6 @@ import React from 'react';
 
 import { getLevelByExp } from '../../utils/runescape';
 
-import { getLevelByExp } from '../../utils/runescape';
-
 import { SkillIcon, Text, GPIcon, ResultMain, LevelsGained } from './ensouled-heads.styled';
 
 const getRunesMessage = runes =>
