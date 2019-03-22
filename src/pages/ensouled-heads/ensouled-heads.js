@@ -161,7 +161,6 @@ const EnsouledHeads = () => {
         prayerExpGained,
         magicExpGained,
         prices,
-        costs,
         runes,
         loadingMessage,
     } = state;
