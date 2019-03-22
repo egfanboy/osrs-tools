@@ -1,6 +1,6 @@
 {
     "name": "osrs-tools",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "main": "public/electron.js",
     "private": true,
     "homepage": "./",
@@ -19,7 +19,7 @@
         "eject": "react-scripts eject",
         "electron": "electron .",
         "build:react": "react-scripts build",
-        "build:electron": "cross-env NODE_ENV=production electron-builder",
+        "build:electron": "cross-env NODE_ENV=production electron-builder --mac --win --x64 --linux -p always",
         "build": "yarn build:react && yarn build:electron"
     },
     "eslintConfig": {
