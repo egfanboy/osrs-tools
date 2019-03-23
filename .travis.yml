@@ -1,0 +1,23 @@
+osx_image: xcode10.1
+sudo: required
+dist: trusty
+language: c
+matrix:
+    include:
+        - os: osx
+cache:
+    directories:
+        - node_modules
+        - app/node_modules
+        - '$HOME/.electron'
+        - '$HOME/.cache'
+install:
+    - nvm install 10
+    - npm install -g yarn
+    - yarn install
+script:
+    - yarn test
+    - yarn build
+branches:
+    except:
+        - "/^v\\d+\\.\\d+\\.\\d+$/"
