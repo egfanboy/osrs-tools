@@ -61,7 +61,7 @@
         "precommit": "pretty-quick",
         "bundle:main": "webpack --config config/webpack.main.config.js --progress",
         "start": "node scripts/start.js",
-        "test": "node scripts/test.js",
+        "test": "jest",
         "electron": "electron .",
         "dev": "concurrently \"BROWSER=none yarn start\"  \"yarn bundle:main --mode development --watch\"",
         "build:react": "node scripts/build.js",
