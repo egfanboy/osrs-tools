@@ -7,4 +7,7 @@ module.exports = {
         filename: 'electron.js',
     },
     target: 'electron-main',
+    node: {
+        __dirname: false,
+    },
 };

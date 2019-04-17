@@ -12,7 +12,7 @@
         "electron": "electron .",
         "dev": "concurrently \"BROWSER=none yarn start\"  \"yarn bundle:main --mode development --watch\"",
         "build:react": "node scripts/build.js",
-        "package": "cross-env NODE_ENV=production electron-builder --mac --win --x64 --linux -p always",
+        "package": "cross-env NODE_ENV=production electron-builder -c.extraMetadata.main=build/electron.js --mac --win --x64 --linux -p always",
         "build": "yarn bundle:main --mode production && yarn build:react && yarn package"
     },
     "dependencies": {

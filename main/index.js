@@ -1,10 +1,11 @@
-// const { app, BrowserWindow, ipcMain } = require('electron');
+const { app, BrowserWindow, ipcMain } = require('electron');
 
-import { app, BrowserWindow, ipcMain } from 'electron';
+// import { app, BrowserWindow, ipcMain } from 'electron';
 const { format } = require('url');
 const path = require('path');
 const osrs = require('osrs-wrapper');
 const isDev = require('electron-is-dev');
+const fs = require('fs');
 let mainWindow;
 
 ipcMain.on('get-user-stats', (event, username) => {
