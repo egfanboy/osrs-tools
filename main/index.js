@@ -6,7 +6,6 @@ const path = require('path');
 const osrs = require('osrs-wrapper');
 const isDev = require('electron-is-dev');
 let mainWindow;
-console.log('h');
 
 ipcMain.on('get-user-stats', (event, username) => {
     osrs.hiscores
