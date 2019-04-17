@@ -2,13 +2,13 @@
 
 # dependencies
 /node_modules
-
 # testing
 /coverage
 
-# production
+# production/builds
 /build
 /dist
+public/electron.js
 
 # misc
 .DS_Store
