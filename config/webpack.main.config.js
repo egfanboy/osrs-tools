@@ -10,4 +10,19 @@ module.exports = {
     node: {
         __dirname: false,
     },
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        babelrc: false,
+                        plugins: ['@babel/plugin-proposal-class-properties'],
+                    },
+                },
+            },
+        ],
+    },
 };

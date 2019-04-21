@@ -45,6 +45,7 @@
         "jest-pnp-resolver": "1.0.2",
         "jest-resolve": "23.6.0",
         "mini-css-extract-plugin": "0.5.0",
+        "node-fetch": "^2.3.0",
         "optimize-css-assets-webpack-plugin": "5.0.1",
         "osrs-wrapper": "^1.0.5",
         "pnp-webpack-plugin": "1.2.1",
@@ -77,6 +78,7 @@
         "not op_mini all"
     ],
     "devDependencies": {
+        "@babel/plugin-proposal-class-properties": "^7.4.0",
         "concurrently": "^4.1.0",
         "cross-env": "^5.2.0",
         "electron": "^3.0.6",
@@ -91,6 +93,8 @@
     },
     "jest": {
         "collectCoverageFrom": [
+            "main/**/*.{js,jsx}",
+            "!main/index.js",
             "src/**/*.{js,jsx}",
             "!/node_modules/",
             "!src/index.js",
@@ -103,7 +107,8 @@
         "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js",
         "testMatch": [
             "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
-            "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,ts,tsx}"
+            "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,ts,tsx}",
+            "<rootDir>/main/**/?(*.)(spec|test).{js,jsx,ts,tsx}"
         ],
         "testEnvironment": "jsdom",
         "testURL": "http://localhost",

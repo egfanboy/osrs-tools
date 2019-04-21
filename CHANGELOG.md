@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### ✨Enhancement✨
 
+-   **Created** the item price service using the osbuddy GE prices [git s#16](https://github.com/EricTurf/osrs-tools/pull/16)
 -   **Fixed** exp calculation to be more accurate [#9](https://github.com/EricTurf/osrs-tools/pull/9)
 
 ## 1.1.0 - [2019-03-22]
