@@ -1,12 +1,14 @@
-const { app, BrowserWindow, ipcMain } = require('electron');
-
-// import { app, BrowserWindow, ipcMain } from 'electron';
-const { format } = require('url');
-const path = require('path');
-const osrs = require('osrs-wrapper');
-const isDev = require('electron-is-dev');
-const fs = require('fs');
+import { app, BrowserWindow, ipcMain } from 'electron';
+import { format } from 'url';
+import path from 'path';
+import osrs from 'osrs-wrapper';
+import isDev from 'electron-is-dev';
+import getItemService from './services/item-price';
 let mainWindow;
+
+let updateInterval;
+// 10 minutes
+const updateIntervalTime = 600000;
 
 ipcMain.on('get-user-stats', (event, username) => {
     osrs.hiscores
@@ -23,14 +25,9 @@ ipcMain.on('get-user-stats', (event, username) => {
 });
 
 ipcMain.on('get-rune-prices', async event => {
-    const runes = ['Blood', 'Body', 'Nature', 'Soul'];
-    const runePrices = {};
+    const runes = ['blood', 'body', 'nature', 'soul'].map(rune => `${rune} rune`);
 
-    for (let rune of runes) {
-        const runeData = JSON.parse(await osrs.ge.getItem(`${rune} rune`));
-
-        runePrices[rune.toLowerCase()] = runeData.item.current.price;
-    }
+    const runePrices = await getItemService().getItemPrices(runes);
 
     event.sender.send('rune-prices', runePrices);
 });
@@ -43,6 +40,8 @@ function createWindow() {
             webSecurity: false,
         },
     });
+
+    updateInterval = setInterval(getItemService().updateItemPrices, updateIntervalTime);
 
     const jsUrl = isDev
         ? 'http://localhost:3000'
@@ -62,6 +61,7 @@ function createWindow() {
 app.on('ready', createWindow);
 
 app.on('window-all-closed', () => {
+    updateInterval && clearInterval(updateInterval);
     if (process.platform !== 'darwin') {
         app.quit();
     }

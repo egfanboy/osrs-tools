@@ -1,0 +1,50 @@
+{
+    "22978": {
+        "id": 22978,
+        "name": "Dragon hunter lance",
+        "members": true,
+        "sp": 300000,
+        "buy_average": 92883297,
+        "buy_quantity": 17,
+        "sell_average": 96136658,
+        "sell_quantity": 11,
+        "overall_average": 94161403,
+        "overall_quantity": 28
+    },
+    "22983": {
+        "id": 22983,
+        "name": "Hydra leather",
+        "members": true,
+        "sp": 100000,
+        "buy_average": 6395000,
+        "buy_quantity": 2,
+        "sell_average": 6314525,
+        "sell_quantity": 5,
+        "overall_average": 6337518,
+        "overall_quantity": 7
+    },
+    "22988": {
+        "id": 22988,
+        "name": "Hydra tail",
+        "members": true,
+        "sp": 100000,
+        "buy_average": 188657,
+        "buy_quantity": 2,
+        "sell_average": 179553,
+        "sell_quantity": 3,
+        "overall_average": 183194,
+        "overall_quantity": 5
+    },
+    "22994": {
+        "id": 22994,
+        "name": "Bottomless compost bucket",
+        "members": true,
+        "sp": 45000,
+        "buy_average": 1055225,
+        "buy_quantity": 5,
+        "sell_average": 1017661,
+        "sell_quantity": 2,
+        "overall_average": 1044493,
+        "overall_quantity": 7
+    }
+}
