@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home page rendering should match the default snapshot 1`] = `
+<div>
+  <div
+    class="sc-kkGfuU fumMYl"
+  >
+    <p
+      class="sc-iAyFgw csomgj"
+    >
+      Welcome to OSRS Tools, you can select a tool from the list below to get started.
+    </p>
+    <div
+      class="sc-kpOJdX koyoes"
+    >
+      <div
+        class="sc-dxgOiQ cAbbjD"
+      >
+        <div
+          class="sc-ckVGcZ fHkYeP"
+        >
+          <h2
+            class="sc-kEYyzF eLpZwT"
+          >
+            Herblore Calculator
+          </h2>
+        </div>
+        <div
+          class="sc-jKJlTe hrJPtX"
+        >
+          Calculate how much herblore exp you have with your herbs or calculate the amount of money required to gain a certain amount of exp
+        </div>
+      </div>
+      <div
+        class="sc-dxgOiQ cAbbjD"
+      >
+        <div
+          class="sc-ckVGcZ fHkYeP"
+        >
+          <h2
+            class="sc-kEYyzF eLpZwT"
+          >
+            Ensouled Head Calculator
+          </h2>
+        </div>
+        <div
+          class="sc-jKJlTe hrJPtX"
+        >
+          Calculate how much prayer and magic exp you will gain with all your ensouled heads
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

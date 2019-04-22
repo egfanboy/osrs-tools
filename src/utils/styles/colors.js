@@ -3,6 +3,9 @@ export default {
     warning: 'rgb(253,192,47)',
     success: 'rgb(48,166,74)',
     info: 'rgb(21,127,251)',
+    grey: {
+        light: 'rgb(226,226,226)',
+    },
     primary: {
         normal: 'rgb(87,7,235)',
         light: 'rgb(98,23,237)',
