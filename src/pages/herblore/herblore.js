@@ -12,6 +12,7 @@ const initalHerbValues = herbs.reduce((acc, head) => {
     return acc;
 }, {});
 
+// eslint-disable-next-line
 const { specialPotions, normalPotions } = seperatePotions(potions);
 const potionsToUse = herbs.reduce((acc, herb) => {
     const potionToUse = normalPotions[herb].find(({ isDefault }) => isDefault);
@@ -39,6 +40,8 @@ const reducer = (state, action) => {
                 totalExp: state.totalExp + expChange,
             };
         }
+        default:
+            return state;
     }
 };
 
