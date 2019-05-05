@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### ✨Enhancement✨
 
+-   **Created** the herblore component [#20](https://github.com/EricTurf/osrs-tools/pull/20)
 -   **Created** the home page component [#17](https://github.com/EricTurf/osrs-tools/pull/17)
 -   **Added** the ability to navigate from pages [#17](https://github.com/EricTurf/osrs-tools/pull/17)
 -   **Created** the item price service using the osbuddy GE prices [#16](https://github.com/EricTurf/osrs-tools/pull/16)
