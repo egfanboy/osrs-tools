@@ -17,7 +17,8 @@ export const Tile = styled.div`
     border: solid 1px ${Colors.grey.light};
     &:hover {
         cursor: pointer;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+        transform: translate(0, -4px);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     }
 `;
 

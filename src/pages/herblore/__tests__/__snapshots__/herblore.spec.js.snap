@@ -1,0 +1,722 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Herblore Calculator rendering should match the default snapshot 1`] = `
+<div>
+  <div
+    class="sc-htoDjs bZzhDu"
+  >
+    <div
+      class="sc-EHOje epUP"
+    >
+      <img
+        class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+        src="https://oldschool.runescape.wiki/images/f/fd/Guam_leaf.png?8fae5"
+        title="guam leaf"
+      />
+      <div
+        class="sc-bdVaJa kVMMIv"
+        value=""
+      >
+        <input
+          class="sc-htpNat dlPGwY"
+          name="guam leaf"
+          type="text"
+          value=""
+        />
+        <span
+          class="sc-bwzfXH kjMOwR"
+        />
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        +
+        0
+         
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/2/25/Eye_of_newt.png?cf257"
+          title="eye of newt"
+        />
+         
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        = 
+        0
+         exp and 
+        0
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/8/86/Attack_potion%283%29.png?74c44"
+          title="attackPotion"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-EHOje epUP"
+    >
+      <img
+        class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+        src="https://oldschool.runescape.wiki/images/b/ba/Marrentill.png?4fb2b"
+        title="marrentill"
+      />
+      <div
+        class="sc-bdVaJa kVMMIv"
+        value=""
+      >
+        <input
+          class="sc-htpNat dlPGwY"
+          name="marrentill"
+          type="text"
+          value=""
+        />
+        <span
+          class="sc-bwzfXH kjMOwR"
+        />
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        +
+        0
+         
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/1/14/Unicorn_horn_dust.png?26485"
+          title="unicorn horn dust"
+        />
+         
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        = 
+        0
+         exp and 
+        0
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/7/7b/Antipoison%283%29.png?02e60"
+          title="antipoison"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-EHOje epUP"
+    >
+      <img
+        class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+        src="https://oldschool.runescape.wiki/images/7/78/Tarromin.png?ada2a"
+        title="tarromin"
+      />
+      <div
+        class="sc-bdVaJa kVMMIv"
+        value=""
+      >
+        <input
+          class="sc-htpNat dlPGwY"
+          name="tarromin"
+          type="text"
+          value=""
+        />
+        <span
+          class="sc-bwzfXH kjMOwR"
+        />
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        +
+        0
+         
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/f/f9/Ashes.png?a6f45"
+          title="ashes"
+        />
+         
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        = 
+        0
+         exp and 
+        0
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/8/8c/Serum_207_%283%29.png?d05f0"
+          title="serum207"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-EHOje epUP"
+    >
+      <img
+        class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+        src="https://oldschool.runescape.wiki/images/c/cb/Harralander.png?bdd9c"
+        title="harralander"
+      />
+      <div
+        class="sc-bdVaJa kVMMIv"
+        value=""
+      >
+        <input
+          class="sc-htpNat dlPGwY"
+          name="harralander"
+          type="text"
+          value=""
+        />
+        <span
+          class="sc-bwzfXH kjMOwR"
+        />
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        +
+        0
+         
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/0/0c/Chocolate_dust.png?b1f54"
+          title="chocolate dust"
+        />
+         
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        = 
+        0
+         exp and 
+        0
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/6/6a/Energy_potion%283%29.png?29afb"
+          title="energyPotion"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-EHOje epUP"
+    >
+      <img
+        class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+        src="https://oldschool.runescape.wiki/images/a/a5/Ranarr_weed.png?ada2a"
+        title="ranarr weed"
+      />
+      <div
+        class="sc-bdVaJa kVMMIv"
+        value=""
+      >
+        <input
+          class="sc-htpNat dlPGwY"
+          name="ranarr weed"
+          type="text"
+          value=""
+        />
+        <span
+          class="sc-bwzfXH kjMOwR"
+        />
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        +
+        0
+         
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/3/30/Snape_grass.png?c7b1f"
+          title="snape grass"
+        />
+         
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        = 
+        0
+         exp and 
+        0
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/0/07/Prayer_potion%283%29.png?f9b25"
+          title="prayerPotion"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-EHOje epUP"
+    >
+      <img
+        class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+        src="https://oldschool.runescape.wiki/images/a/ae/Irit_leaf.png?3ed63"
+        title="irit leaf"
+      />
+      <div
+        class="sc-bdVaJa kVMMIv"
+        value=""
+      >
+        <input
+          class="sc-htpNat dlPGwY"
+          name="irit leaf"
+          type="text"
+          value=""
+        />
+        <span
+          class="sc-bwzfXH kjMOwR"
+        />
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        +
+        0
+         
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/2/25/Eye_of_newt.png?cf257"
+          title="eye of newt"
+        />
+         
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        = 
+        0
+         exp and 
+        0
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/b/bc/Super_attack%283%29.png?e48de"
+          title="superAttack"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-EHOje epUP"
+    >
+      <img
+        class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+        src="https://oldschool.runescape.wiki/images/9/9e/Avantoe.png?8fae5"
+        title="avantoe"
+      />
+      <div
+        class="sc-bdVaJa kVMMIv"
+        value=""
+      >
+        <input
+          class="sc-htpNat dlPGwY"
+          name="avantoe"
+          type="text"
+          value=""
+        />
+        <span
+          class="sc-bwzfXH kjMOwR"
+        />
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        +
+        0
+         
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/2/24/Mort_myre_fungus.png?e4571"
+          title="mort myre fungus"
+        />
+         
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        = 
+        0
+         exp and 
+        0
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/a/ab/Super_energy%283%29.png?84f18"
+          title="superEnergy"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-EHOje epUP"
+    >
+      <img
+        class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+        src="https://oldschool.runescape.wiki/images/c/c6/Kwuarm.png?3ed63"
+        title="kwuarm"
+      />
+      <div
+        class="sc-bdVaJa kVMMIv"
+        value=""
+      >
+        <input
+          class="sc-htpNat dlPGwY"
+          name="kwuarm"
+          type="text"
+          value=""
+        />
+        <span
+          class="sc-bwzfXH kjMOwR"
+        />
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        +
+        0
+         
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/1/18/Limpwurt_root.png?fe88f"
+          title="limpwurt root"
+        />
+         
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        = 
+        0
+         exp and 
+        0
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/9/9f/Super_strength%283%29.png?25714"
+          title="superStrength"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-EHOje epUP"
+    >
+      <img
+        class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+        src="https://oldschool.runescape.wiki/images/4/4c/Cadantine.png?8fae5"
+        title="cadantine"
+      />
+      <div
+        class="sc-bdVaJa kVMMIv"
+        value=""
+      >
+        <input
+          class="sc-htpNat dlPGwY"
+          name="cadantine"
+          type="text"
+          value=""
+        />
+        <span
+          class="sc-bwzfXH kjMOwR"
+        />
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        +
+        0
+         
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/5/56/White_berries.png?e2e46"
+          title="white berries"
+        />
+         
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        = 
+        0
+         exp and 
+        0
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/9/99/Super_defence%283%29.png?3c0ef"
+          title="superDefence"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-EHOje epUP"
+    >
+      <img
+        class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+        src="https://oldschool.runescape.wiki/images/2/23/Snapdragon.png?ada2a"
+        title="snapdragon"
+      />
+      <div
+        class="sc-bdVaJa kVMMIv"
+        value=""
+      >
+        <input
+          class="sc-htpNat dlPGwY"
+          name="snapdragon"
+          type="text"
+          value=""
+        />
+        <span
+          class="sc-bwzfXH kjMOwR"
+        />
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        +
+        0
+         
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/8/8e/Red_spiders%27_eggs.png?dab74"
+          title="red spiders' eggs"
+        />
+         
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        = 
+        0
+         exp and 
+        0
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/d/dc/Super_restore%283%29.png?b14cf"
+          title="superRestore"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-EHOje epUP"
+    >
+      <img
+        class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+        src="https://oldschool.runescape.wiki/images/a/ad/Toadflax.png?14698"
+        title="toadflax"
+      />
+      <div
+        class="sc-bdVaJa kVMMIv"
+        value=""
+      >
+        <input
+          class="sc-htpNat dlPGwY"
+          name="toadflax"
+          type="text"
+          value=""
+        />
+        <span
+          class="sc-bwzfXH kjMOwR"
+        />
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        +
+        0
+         
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/e/e6/Crushed_nest.png?7a5b0"
+          title="crushed nest"
+        />
+         
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        = 
+        0
+         exp and 
+        0
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/b/b6/Saradomin_brew%283%29.png?8ae4e"
+          title="saradominBrew"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-EHOje epUP"
+    >
+      <img
+        class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+        src="https://oldschool.runescape.wiki/images/8/82/Lantadyme.png?3ed63"
+        title="lantadyme"
+      />
+      <div
+        class="sc-bdVaJa kVMMIv"
+        value=""
+      >
+        <input
+          class="sc-htpNat dlPGwY"
+          name="lantadyme"
+          type="text"
+          value=""
+        />
+        <span
+          class="sc-bwzfXH kjMOwR"
+        />
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        +
+        0
+         
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/5/56/Potato_cactus.png?fb31b"
+          title="potato cactus"
+        />
+         
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        = 
+        0
+         exp and 
+        0
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/0/02/Magic_potion%283%29.png?774cb"
+          title="magicPotion"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-EHOje epUP"
+    >
+      <img
+        class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+        src="https://oldschool.runescape.wiki/images/2/22/Dwarf_weed.png?8fae5"
+        title="dwarf weed"
+      />
+      <div
+        class="sc-bdVaJa kVMMIv"
+        value=""
+      >
+        <input
+          class="sc-htpNat dlPGwY"
+          name="dwarf weed"
+          type="text"
+          value=""
+        />
+        <span
+          class="sc-bwzfXH kjMOwR"
+        />
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        +
+        0
+         
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/c/ca/Wine_of_zamorak.png?4819a"
+          title="wine of zamorak"
+        />
+         
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        = 
+        0
+         exp and 
+        0
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/0/0f/Ranging_potion%283%29.png?b09a6"
+          title="rangingPotion"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-EHOje epUP"
+    >
+      <img
+        class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+        src="https://oldschool.runescape.wiki/images/a/a4/Torstol.png?14698"
+        title="torstol"
+      />
+      <div
+        class="sc-bdVaJa kVMMIv"
+        value=""
+      >
+        <input
+          class="sc-htpNat dlPGwY"
+          name="torstol"
+          type="text"
+          value=""
+        />
+        <span
+          class="sc-bwzfXH kjMOwR"
+        />
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        +
+        0
+         
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/f/ff/Super_attack%284%29.png?88fac"
+          title="super attack(4)"
+        />
+         
+        +
+        0
+         
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/3/32/Super_strength%284%29.png?a035c"
+          title="super strength(4)"
+        />
+         
+        +
+        0
+         
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/9/94/Super_defence%284%29.png?22916"
+          title="super defence(4)"
+        />
+         
+      </div>
+      <div
+        class="sc-bZQynM dnFZLg"
+      >
+        = 
+        0
+         exp and 
+        0
+        <img
+          class="sc-ifAKCX zfpgZ sc-bxivhb iwGdkg"
+          src="https://oldschool.runescape.wiki/images/9/94/Super_combat_potion%283%29.png?27de0"
+          title="superCombatPotion"
+        />
+      </div>
+    </div>
+    <p
+      class="sc-gzVnrw kUlmDW"
+      data-testid="totalExp"
+    >
+      In total you will gain 
+      0
+       herblore exp.
+    </p>
+  </div>
+</div>
+`;

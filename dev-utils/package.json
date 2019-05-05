@@ -1,0 +1,13 @@
+{
+    "name": "osrs-tools-dev-utils",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "clipboardy": "^2.0.0",
+        "puppeteer": "^1.15.0"
+    },
+    "scripts": {
+        "get:sources": "node ./index"
+    }
+}

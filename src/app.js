@@ -4,6 +4,7 @@ import { createGlobalStyle } from 'styled-components';
 
 import EnsouledHeads from './pages/ensouled-heads/ensouled-heads';
 import HomePage from './pages/home/home';
+import HerbloreCalc from './pages/herblore/herblore';
 
 const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css?family=Roboto');
@@ -15,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
 const PAGES = {
     home: HomePage,
     ensouledHeadCalc: EnsouledHeads,
-    herbloreCalc: () => <div>herblore calc</div>,
+    herbloreCalc: HerbloreCalc,
 };
 
 const reducer = (state, action) => {
