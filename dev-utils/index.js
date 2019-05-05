@@ -17,38 +17,7 @@ function formatItem(item) {
 (async () => {
     const index = process.argv.findIndex(v => v === '-r');
 
-    // const items = process.argv.slice(index + 1, process.argv.length);
-    const items = [
-        // 'eye of newt',
-        // 'unicorn horn dust',
-        // 'limpwurt root',
-        // 'ashes',
-        // 'volcanic ash',
-        // "red spiders' eggs",
-        // 'chocolate dust',
-        // 'white berries',
-        // "toad's legs",
-        // 'goat horn dust',
-        // 'snape grass',
-        // 'unicorn horn dust',
-        // 'mort myre fungus',
-        // 'kebbit teeth dust',
-
-        // 'yew roots',
-        // 'dragon scale dust',
-        // 'wine of zamorak',
-
-        // 'potato cactus',
-        // 'jangerberries',
-        // 'magic roots',
-        // 'wine of zamorak',
-        // 'crushed nest',
-        // 'poison ivy berries',
-
-        // 'zulrah scale (5)',
-        'crushed superior dragon bones',
-        // 'anti-venom',
-    ];
+    const items = process.argv.slice(index + 1, process.argv.length);
 
     const browser = await puppeteer.launch();
 
