@@ -6,7 +6,7 @@ exports[`Tile List rendering should match the default snapshot 1`] = `
     class="sc-bdVaJa gkTLIw"
   >
     <div
-      class="sc-bwzfXH ifanNJ"
+      class="sc-bwzfXH koBijj"
     >
       <div
         class="sc-htpNat loqVhN"
@@ -24,7 +24,7 @@ exports[`Tile List rendering should match the default snapshot 1`] = `
       </div>
     </div>
     <div
-      class="sc-bwzfXH ifanNJ"
+      class="sc-bwzfXH koBijj"
     >
       <div
         class="sc-htpNat loqVhN"

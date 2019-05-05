@@ -13,7 +13,7 @@ describe('App', () => {
 
         fireEvent.click(getByText('Herblore Calculator'));
 
-        expect(() => getByText('herblore calc')).not.toThrow();
+        expect(() => getByText('In total you will gain 0 herblore exp.')).not.toThrow();
     });
 
     it('should render the herblore calculator when the tile is clicked', () => {
