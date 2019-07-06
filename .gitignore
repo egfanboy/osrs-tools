@@ -2,8 +2,12 @@
 
 # dependencies
 **/node_modules
+
 # testing
 /coverage
+
+# Environment
+/docker/graphql.env
 
 # production/builds
 /build

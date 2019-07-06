@@ -1,0 +1,19 @@
+version: '3'
+services:
+    graphql:
+        image: 'ericturf/shanty:1.1.1-alpine'
+        ports:
+            - '4000:4000'
+        env_file:
+            - graphql.env
+        container_name: graphql
+        depends_on:
+            - mongo
+    mongo:
+        image: 'mongo:4'
+        restart: always
+        ports:
+            - '27017:27017'
+        volumes:
+            - '${HOME}/.docker/mongo/data:/data/db'
+        container_name: mongo
