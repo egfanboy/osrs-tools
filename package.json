@@ -81,7 +81,7 @@
         "@babel/plugin-proposal-class-properties": "^7.4.0",
         "concurrently": "^4.1.0",
         "cross-env": "^5.2.0",
-        "electron": "^3.0.6",
+        "electron": "^15.5.5",
         "electron-builder": "^20.28.3",
         "husky": "^1.1.2",
         "jest-dom": "^3.1.3",
